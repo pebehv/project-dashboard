@@ -41,16 +41,23 @@ export interface DetailedProject extends Project {
 
 
 // Valida y filtra los datos antes de asignarlos a tu constante
-function isValidStatus(status: any): status is ProjectStatus {
+function isValidStatus(status: string): status is ProjectStatus {
   return ["planning", "in-progress", "review", "completed", "on-hold"].includes(status);
 }
-function isValidPriority(priority: any): priority is DetailedProject {
+/*function isValidPriority(priority: string): priority is DetailedProject {
   return [ "high" , "medium" , "low"].includes(priority);
-}
+}*/
 
 // Asignación final con un filtro de datos válidos
 export const mockProjects: Project[] = myData
   .filter(project => isValidStatus(project.status)) as Project[];
 
-export const mockDetailedProjects: DetailedProject[] = detailData
-  .filter(project => isValidPriority(project.tasks)) as DetailedProject[];
+export const mockDetailedProjects: DetailedProject[] = detailData as DetailedProject[]
+//  .filter(project => isValidPriority(project.tasks)) as DetailedProject[];
+
+  
+export const mockDetailedProjects2: Project[] = [
+  mockProjects[0],
+  ...mockDetailedProjects
+  
+]

@@ -1,6 +1,6 @@
 import { Card, CardContent, CardHeader, CardTitle } from "./ui/card";
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from "recharts";
-import { Project } from "./ProjectCard";
+import { Project } from "../app/data/type/project";
 import { processTeamData, processPriorityData } from "./chartUtils";
 
 interface ProjectChartsProps {
