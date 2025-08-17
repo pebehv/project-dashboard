@@ -1,8 +1,12 @@
-const nextConfig = {
+import { NextConfig } from "next";
+
+const nextConfig: NextConfig = {
   experimental: {
     // Enable server components by default
     serverComponentsExternalPackages: [],
   },
+  output: 'export',
+  basePath: '/project-dashboard',
   // Optimize images
   images: {
     domains: [],
@@ -18,4 +22,4 @@ const nextConfig = {
   },
 }
 
-module.exports = nextConfig
+export default nextConfig;
