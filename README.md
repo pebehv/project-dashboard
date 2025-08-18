@@ -1,36 +1,35 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Dashboard
 
-## Getting Started
+Este proyecto presenta un dashboard interactivo diseñado para visualizar el estado y el progreso de diferentes proyectos. Su objetivo principal es ofrecer una perspectiva visual y centralizada de los avances.
 
-First, run the development server:
+## Las funcionalidades clave incluyen:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Muestra tres graficas, con las estadisticas de los proyectos
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Un modal de detalles para cada proyecto, el cual muestra información más completa, como el estatus, los avances y los miembros del equipo.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Tecnologías y Stack
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Framework: Next.js (v15.4.6)
 
-## Learn More
+Estilos: Tailwind (v3.3.1)
 
-To learn more about Next.js, take a look at the following resources:
+Lenguaje: TypeScript
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Componentes de UI: Radix UI
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Fuente de datos: Archivo JSON local
 
-## Deploy on Vercel
+# Despliegue del Proyecto
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Desplegar el proyecto de forma local 
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Para ejecutar el proyecto de forma local, por favor, ejecute el siguiente comando en su terminal  ´npm run dev´ 
+
+## Despliegue en GitHub Pages
+
+Actualmente, el proyecto está desplegado en GitHub Pages; sin embargo, se ha detectado un problema con la carga de los estilos y archivos JavaScript, lo que impide que la aplicación se visualice correctamente.
+
+Estoy trabajando para solucionar este inconveniente y garantizar que el despliegue funcione como se espera.
+
+https://pebehv.github.io/project-dashboard/
