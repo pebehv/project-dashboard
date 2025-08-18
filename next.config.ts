@@ -1,25 +1,15 @@
+// Archivo: next.config.ts
 import { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   experimental: {
-    // Enable server components by default
-    serverComponentsExternalPackages: [],
+    // serverComponentsExternalPackages: [], // ¡Elimina esta línea!
   },
   output: 'export',
   basePath: '/project-dashboard',
-  // Optimize images
   images: {
-    domains: [],
-    unoptimized: true, // Disable image optimization for development
+    unoptimized: true,
   },
-  // Enable TypeScript strict mode
-  typescript: {
-    ignoreBuildErrors: false,
-  },
-  // Configure ESLint
-  eslint: {
-    ignoreDuringBuilds: false,
-  },
-}
+};
 
 export default nextConfig;
