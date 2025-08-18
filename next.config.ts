@@ -10,6 +10,8 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true,
   },
+  assetPrefix: '/project-dashboard/' // Esta línea a veces ayuda con problemas de rutas
+
 };
 
 export default nextConfig;
