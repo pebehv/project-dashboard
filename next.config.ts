@@ -6,7 +6,8 @@ const nextConfig: NextConfig = {
     // serverComponentsExternalPackages: [], // ¡Elimina esta línea!
   },
   output: 'export',
-  basePath: '/project-dashboard',
+  //basePath: '/project-dashboard',
+  trailingSlash: true, 
   images: {
     unoptimized: true,
   },
