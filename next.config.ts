@@ -1,18 +1,10 @@
-// Archivo: next.config.ts
-import { NextConfig } from "next";
+/** @type {import('next').NextConfig} */
+const isProd = process.env.NODE_ENV === 'production';
 
-const nextConfig: NextConfig = {
-  experimental: {
-    // serverComponentsExternalPackages: [], // ¡Elimina esta línea!
-  },
-  output: 'export',
-  //basePath: '/project-dashboard',
-  trailingSlash: true, 
-  images: {
-    unoptimized: true,
-  },
-  assetPrefix: '/project-dashboard/' // Esta línea a veces ayuda con problemas de rutas
-
+const nextConfig = {
+  output: 'export', // exporta a estático
+  basePath: isProd ? '/project-dashboard' : '',
+  assetPrefix: isProd ? '/project-dashboard/' : '',
 };
 
-export default nextConfig;
+module.exports = nextConfig;
