@@ -26,6 +26,8 @@ Fuente de datos: Archivo JSON local
 
 Para ejecutar el proyecto de forma local, por favor, ejecute el siguiente comando en su terminal  ´npm run dev´ 
 
+link : http://localhost:3000/
+
 ### Despliegue en GitHub Pages
 
 Actualmente, el proyecto está desplegado en GitHub Pages; sin embargo, se ha detectado un problema con la carga de los estilos y archivos JavaScript, lo que impide que la aplicación se visualice correctamente.
