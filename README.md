@@ -33,3 +33,7 @@ Actualmente, el proyecto está desplegado en GitHub Pages; sin embargo, se ha de
 Estoy trabajando para solucionar este inconveniente y garantizar que el despliegue funcione como se espera.
 
 https://pebehv.github.io/project-dashboard/
+
+## Imagen de la pantalla
+<img width="582" height="756" alt="image" src="https://github.com/user-attachments/assets/09944112-124e-4d9e-9c14-919119d9048e" />
+
