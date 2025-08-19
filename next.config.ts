@@ -1,8 +1,10 @@
+/** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',
-  basePath: '/project-dashboard',
-  assetPrefix: '/project-dashboard/',
-  distDir: '_next', // fuerza la carpeta
+  experimental: {
+    appDir: true,
+  },
+  dirs: ["src"],
 };
 
 module.exports = nextConfig;
