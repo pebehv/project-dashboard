@@ -30,11 +30,15 @@ link : http://localhost:3000/
 
 ### Despliegue en GitHub Pages
 
-Actualmente, el proyecto está desplegado en GitHub Pages; sin embargo, se ha detectado un problema con la carga de los estilos y archivos JavaScript, lo que impide que la aplicación se visualice correctamente.
+/* Actualmente, el proyecto está desplegado en GitHub Pages; sin embargo, se ha detectado un problema con la carga de los estilos y archivos JavaScript, lo que impide que la aplicación se visualice correctamente.
 
-Estoy trabajando para solucionar este inconveniente y garantizar que el despliegue funcione como se espera.
+Estoy trabajando para solucionar este inconveniente y garantizar que el despliegue funcione como se espera.*/
 
-https://pebehv.github.io/project-dashboard/
+/* https://pebehv.github.io/project-dashboard/ */
+
+#### link del proyecto 
+
+https://dashboard-projec.netlify.app/
 
 ## Imagen de la pantalla
 <img width="582" height="756" alt="image" src="https://github.com/user-attachments/assets/09944112-124e-4d9e-9c14-919119d9048e" />
