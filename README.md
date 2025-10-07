@@ -28,13 +28,6 @@ Para ejecutar el proyecto de forma local, por favor, ejecute el siguiente comand
 
 link : http://localhost:3000/
 
-### Despliegue en GitHub Pages
-
-/* Actualmente, el proyecto está desplegado en GitHub Pages; sin embargo, se ha detectado un problema con la carga de los estilos y archivos JavaScript, lo que impide que la aplicación se visualice correctamente.
-
-Estoy trabajando para solucionar este inconveniente y garantizar que el despliegue funcione como se espera.*/
-
-/* https://pebehv.github.io/project-dashboard/ */
 
 #### link del proyecto 
 
